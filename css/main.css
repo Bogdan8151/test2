@@ -257,6 +257,7 @@
 		text-align: left;
 		width: 100%;
 		min-width: 1250px;
+		max-width: 1251px;
 		margin: 00px auto 0px auto;
 	}
 	.mack_img_gol{
@@ -520,4 +521,5 @@
 		text-align: center;
 
 	}
+
 
