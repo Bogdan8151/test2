@@ -224,7 +224,7 @@
 	.liner{	
 		width: 100%;
 		margin-top: 100px;
-		min-width: 1250px;
+		
 		background-color: #4f8078;
 	}
 
@@ -503,13 +503,14 @@
 
 	.footer{
 		width: 100%;
+		min-width: 100%;
 		background-color:#4f8078;
 		
 	}
 
 	.fot2{
-		margin: 0 auto;
-		width: 1250px;
+			
+		
 		margin: 0 auto;
 		font-size: 25px;
 		color: black;
@@ -520,8 +521,7 @@
 	}
 
 	.fot1{
-		
-		
+		width: 1250px;
 		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
