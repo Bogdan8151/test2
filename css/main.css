@@ -224,7 +224,7 @@
 	.liner{	
 		width: 100%;
 		margin-top: 100px;
-		
+		min-width: 1250px;
 		background-color: #4f8078;
 	}
 
@@ -499,7 +499,7 @@
 	   margin-bottom: 180px;
 	   text-align: center;
 	   color: #737575;
-	   font-size: 10FR;
+	   font-size: 21px;
 
 	}
 
