@@ -86,7 +86,7 @@ display: flex;
 }
 
 .header{
-	height: 100vh;
+	height: 1000px;
 		position: relative;	
   -webkit-background-size: cover;
          	background-size: cover;
@@ -97,25 +97,10 @@ display: flex;
 	background: url('../img/header-4.jpg') no-repeat center top / cover;
 	padding-top: 57px;
 	color: #ffff;
-	
-	
-}
-	@media screen and (max-width: 900px){
-		.header{
-	
-		position: relative;	
-  -webkit-background-size: cover;
-         	background-size: cover;
-	width: 100%;
-	background-position: center;
-	overflow: hidden;
-	
-	background: url('../img/header-4.jpg') no-repeat center top;
-	padding-top: 57px;
-	color: #ffff;
+
 	
 }
-	}
+
 
 
 header:after {
