@@ -307,7 +307,7 @@
 	.container3{
 		height: 10px;
 		width: 100%;
-		
+		min-width: 1250px;
 		font-weight: 300;
 		
 	}
@@ -317,9 +317,9 @@
 		width: 100%;
 	}
 
-	 #parallelogram {	 	
+	 #parallelogram {	
 	 	min-width: 1250px;
-		max-width: 1250px;
+	 	width: 1250px;
 	 	width: 100%;
 	   height: 40px;
 	   background: #4f8078;
@@ -357,14 +357,14 @@
 
 	.portfolio-wrap {
 	   min-width: 1250px;
-		max-width: 1250px;
+	   max-width: 1250px;
 	   margin: 0 auto;
 	   display: flex;
 	   justify-content: space-around;
 	   flex-wrap: wrap;
 	}
 	.portfolio-item {
-
+		width: 300px;
 	   padding: 10px;
 	}
 	.portfolio-item a {
@@ -497,7 +497,7 @@
 	   margin-bottom: 180px;
 	   text-align: center;
 	   color: #737575;
-	   font-size: 12sFR;
+	   font-size: 10FR;
 
 	}
 
@@ -520,7 +520,7 @@
 	}
 
 	.fot1{
-		margin: 0 auto;
+		
 		
 		margin: 0 auto;
 		display: flex;
