@@ -257,7 +257,7 @@
 		text-align: left;
 		width: 100%;
 		min-width: 1250px;
-		max-width: 1251px;
+		max-width: 1250px;
 		margin: 00px auto 0px auto;
 	}
 	.mack_img_gol{
@@ -289,7 +289,7 @@
 		width: 67%;
 		font-size: 25px;
 		font-weight: 400;
-		min-height: 150px;
+		max-height: 400px;
 
 
 	}
@@ -317,7 +317,9 @@
 		width: 100%;
 	}
 
-	 #parallelogram {
+	 #parallelogram {	 	
+	 	min-width: 1250px;
+		max-width: 1250px;
 	 	width: 100%;
 	   height: 40px;
 	   background: #4f8078;
@@ -354,13 +356,15 @@
 	}
 
 	.portfolio-wrap {
-	   max-width: 1120px;
+	   min-width: 1250px;
+		max-width: 1250px;
 	   margin: 0 auto;
 	   display: flex;
 	   justify-content: space-around;
 	   flex-wrap: wrap;
 	}
 	.portfolio-item {
+
 	   padding: 10px;
 	}
 	.portfolio-item a {
@@ -475,6 +479,8 @@
 	}
 
 	.up_vr{
+		min-width: 1250px;
+		max-width: 1250px;
 		opacity: .9;
 		max-width: 1120px;
 	   margin: 100PX auto;
@@ -484,13 +490,14 @@
 	}
 
 	.under_vr{
-		width:900px;
+		max-height: 300px;
+		width: 900px;
 	   margin: 0px auto;
 	   margin-top: 50px;
 	   margin-bottom: 180px;
 	   text-align: center;
 	   color: #737575;
-	   font-size: 10FR;
+	   font-size: 12sFR;
 
 	}
 
@@ -521,3 +528,5 @@
 		text-align: center;
 
 	}
+
+
