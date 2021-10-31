@@ -490,6 +490,8 @@
 	}
 
 	.under_vr{
+		padding: 0 150px;
+		min-width: 1250px;
 		max-height: 300px;
 		width: 900px;
 	   margin: 0px auto;
@@ -503,7 +505,8 @@
 
 	.footer{
 		width: 100%;
-		min-width: 100%;
+		min-width: 1250px;
+
 		background-color:#4f8078;
 		
 	}
