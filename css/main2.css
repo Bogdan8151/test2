@@ -44,7 +44,7 @@ p{
 .nav{
 	width: 100%;
 	margin: auto 100px;
-	color: white;
+	color: black;
 	font-weight: 300;
 	
 
@@ -71,7 +71,7 @@ p{
 	right: 0;
 	letter-spacing: .000001px;
 	height: 100vh;
-	background-color: #1c1d1f;
+	color: black;
 	
 }
 
