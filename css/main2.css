@@ -51,6 +51,7 @@ p{
 }
 
 .vid_inf{
+	color: white;
 	display: grid;
     grid-template-columns:8fr 2.7fr;
     
@@ -70,7 +71,7 @@ p{
 	right: 0;
 	letter-spacing: .000001px;
 	height: 100vh;
-	background-color: white;
+	background-color: #1c1d1f;
 	
 }
 
@@ -81,7 +82,7 @@ p{
     justify-content: space-between;
     padding: 0.8rem 0.8rem 0.8rem 1.6rem;
    border: 1px solid #d1d7dc;
-    background-color: #fff;
+    background-color: #1c1d1f;
    
    }
 
