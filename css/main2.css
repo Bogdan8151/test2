@@ -31,19 +31,22 @@ p{
 	margin: 0;
 }
 
+
 .header{
 	font-weight: 300;
-	height: 55px;
-	width: 100%;
+	height: 65px;
+	font-size: 50px;
 	background-color: #1c1d1f;
 	border-bottom: .2px solid #3e4143;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 }
 
 .nav{
-	width: 100%;
-	margin: auto 100px;
+
+	width: 100vh;
+	margin: auto 0px;
+	margin-left: 35px;
 	color: black;
 	font-weight: 300;
 	
@@ -51,6 +54,7 @@ p{
 }
 
 .vid_inf{
+	
 	color: white;
 	display: grid;
     grid-template-columns:8fr 2.7fr;
@@ -64,7 +68,7 @@ p{
 
 .vic{
 	width: 100;
-	background-color: #1C1D1F ;
+ background-color: #1c1d1f;
 }
 .info{
 	position: ;
@@ -74,17 +78,75 @@ p{
 	color: black;
 	
 }
+.vid_curs{
+	width: 90%;
+	height: 40em;
+}
 
-.sidebar--sidebar-header--3RQk{
+@media (max-width: 360px) {
+
+	.gol{
+		width: 100vh;
+	}
+	.vid_inf{
+	color: white;
 	
-    display;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.8rem 0.8rem 0.8rem 1.6rem;
-   border: 1px solid #d1d7dc;
-    background-color: #1c1d1f;
    
+    
+}
+	.video{
+		width: 100%;
+	}
+
+
+	.vid_inf iframe{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	margin: 0 auto;
+}
+	.under_vid_gol{
+   	color: black;
+   	margin-top: 25px;
+   	
    }
+
+}
+
+@media (max-width: 900px) {
+	.gol{
+		
+	}
+	.vid_inf{
+	color: white;
+	display: grid;
+    grid-template-columns:9fr 0fr;
+    
+}
+	.video{
+		width: 100%;
+	}
+
+	.info{
+		display: none;
+		width: 0%;
+
+	}
+
+		.vid_inf iframe{
+
+	height: 500px;
+	display: flex;
+	margin: 0 auto;
+}
+	.under_vid_gol{
+   	color: black;
+   	margin-top: 25px;
+
+   }
+}
+}
+
 
   .udlite-heading-md{
   	 font-weight: 700;
@@ -93,6 +155,7 @@ p{
   }
 
  .sidebar--sidebar--2XpCD .sidebar--sidebar-header--3RQk_ {
+ 	background-color: #1c1d1f;
     border-right: 0;
     border-bottom: 1px solid #d1d7dc;
 }
@@ -149,16 +212,16 @@ p{
    .under_vid_gol{
    	color: black;
    	margin-top: 25px;
-   	margin-left:55px;;
+   	margin-left:35px;;
    }
 
    .under_vid{
    	margin-bottom: 25px;
-   	margin-left: 30px;
+ 
    }
 
   .about_cur{
-  	margin-left: 30px;
+
   	margin-top: 50px;
 
   }
@@ -179,3 +242,5 @@ p{
   	background-color: #1c1d1f;
   	padding: 00px;
   }
+
+
