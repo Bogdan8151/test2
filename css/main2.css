@@ -54,6 +54,21 @@ p{
 	
 
 }
+  .pereck{
+	
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.pereck img{
+		
+	height: 0px;
+	width: 0px;
+	opacity: .8;
+}
+
 
 .vid_inf{
 	
@@ -89,6 +104,26 @@ p{
 }
 
 @media (max-width: 360px) {
+.text_pereck{
+	color: black;
+
+}
+
+.pereck{
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 40px 0px;
+}
+
+.pereck img{
+	
+	height: 50px;
+	width: 50px;
+	opacity: .6;
+}
+
 
 	.gol{
 		width: 100vh;
@@ -130,6 +165,25 @@ p{
 }
 
 @media (max-width: 900px) {
+.text_pereck{
+	color: black;
+
+}
+.pereck{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 40px 0px;
+}
+
+.pereck img{
+	margin-right: 50px;
+	margin-right: 50px;
+	height: 50px;
+	width: 50px;
+	opacity: .6;
+}
+
 
 .head_tx{
 	 margin-top: 15px; 
@@ -273,5 +327,4 @@ p{
   	background-color: #1c1d1f;
   	padding: 00px;
   }
-
 
